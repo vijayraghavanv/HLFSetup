@@ -11,7 +11,7 @@ You will need the following:
  Steps to follow:
   1. Login to the primary server and create a folder called scripts (This should be as follows: - /home/ubuntu/scripts).
   2. Copy RectifyLocale.sh, setupBlockChainBasics.sh, setupBlockChainNetwork.sh and sshc.sh to the scripts folder.
-  3. Also copy secondary server's private key to this folder (I know that this is a security lapse...however I choose to overlook this issue)
+  3. Also copy secondary server's private key to this folder (I know that this is a security lapse...however I choose to overlook this issue). Change permission (chmod 400 id_rsa).
   4. cd ~/scripts
   5. chmod +x *
   6. Run rectifyLocale.sh - This is mandatory if you keep getting those pesky LC_ALL and LANGUAGE charset not set.
